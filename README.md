@@ -1,6 +1,6 @@
 # A Decision Support System for  AI Content Detection Using Neural Networks and Ensemble Architecture
 
-8th International Conference on Computational Intelligence in Communications and Business Analytics (CICBA-2026)[https://www.cicba.in/]
+8th International Conference on Computational Intelligence in Communications and Business Analytics [(CICBA-2026)][https://www.cicba.in/]
 
 ## Demo Video
 <video src="./assets/demo.mp4" controls width="800"></video>
