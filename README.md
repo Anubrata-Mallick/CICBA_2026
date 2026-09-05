@@ -63,7 +63,7 @@ The PDF processor separates the document into:
 
 ### 🔗 PDF Processor
 
-[PDF Processor Repository](https://github.com/username/project-repo)
+[PDF Processor Repository](https://github.com/Anubrata-Mallick/PDF_PROCESSOR)
 
 ---
 
