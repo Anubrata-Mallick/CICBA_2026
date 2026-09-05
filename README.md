@@ -24,7 +24,9 @@
 
 ## 🎥 Demo
 
-![Demo](./assets/demo.gif)
+<p align="center">
+  <img src="./assets/demo.gif" alt="Demo" width="800">
+</p>
 
 ---
 
