@@ -21,86 +21,291 @@
 
 
 <!-- Demo -->
-## <img src="https://user-images.githubusercontent.com/74038190/216654095-6f6772e4-e433-4bba-9164-1ca6f463ac3f.gif" width="50"> Demo
+<div align="center">
 
-<p align="center">
+<h2>
+<img src="https://user-images.githubusercontent.com/74038190/216654095-6f6772e4-e433-4bba-9164-1ca6f463ac3f.gif" width="50">
+Demo
+</h2>
+
+<p>
   <img src="./assets/demo.gif" alt="Demo" width="800">
 </p>
 
+</div>
+
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
+<!-- 🌐 Overall Architecture -->
 
-<!-- 🌐 Overall Arch --> 
+<div align="center">
 
 ## 🏗️ Overall Architecture
 
 <img src="./assets/arch.png" alt="Overall Architecture" width="850">
 
-The system processes a PDF through separate **text and image analysis pipelines**, followed by an adaptive late-fusion layer to generate an overall AI probability score.
+<p>
+The system processes a PDF through separate <b>text and image analysis pipelines</b>,
+<br>
+followed by an adaptive late-fusion layer to generate an overall AI probability score.
+</p>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600">
+
+</div>
 
 
-<!-- 🌐 Text Analysis --> 
+<!-- 🌐 Text Analysis -->
+
+<div align="center">
+
 ## 📝 Text Analysis
 
 <img src="./assets/Textarch.png" alt="Text Analysis Architecture" width="850">
 
-The text module combines:
+<p>The text module combines:</p>
 
-- **TF-IDF + Logistic Regression**
-- **TF-IDF + Multinomial Naive Bayes**
-- **Stylometric Features + Random Forest**
-- **Neural Network Meta-Learner**
+<table align="center">
+<tr>
+<td align="center">📊 <b>TF-IDF</b><br>+ Logistic Regression</td>
+<td align="center">📈 <b>TF-IDF</b><br>+ Multinomial Naive Bayes</td>
+</tr>
+<tr>
+<td align="center">🌲 <b>Stylometric Features</b><br>+ Random Forest</td>
+<td align="center">🧠 <b>Neural Network</b><br>Meta-Learner</td>
+</tr>
+</table>
+
+<br>
 
 ### 📊 Text Module Performance
 
-**99.10% Accuracy | 99.97% AUROC**
+<img src="https://img.shields.io/badge/Accuracy-99.10%25-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/AUROC-99.97%25-blue?style=for-the-badge">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+<br><br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600">
+
+</div>
+
+<!-- 🌐 PDF BIFURCATION -->
+
+<div align="center">
+
+## 🖼️ PDF Bifurcation Pipeline
+
+<p>
+  <i>Transforming unstructured PDF documents into clean, structured inputs for AI detection.</i>
+</p>
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="45%">
+
+### 📄 PDF Document
+
+</td>
+
+<td align="center" width="10%">
+
+### ➜
+
+</td>
+
+<td align="center" width="45%">
+
+### ⚙️ PDF Processor
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+📑 **Input PDF**
+
+</td>
+
+<td align="center">
+
+🔄
+
+</td>
+
+<td align="center">
+
+**Content Extraction**
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 📝 Text
+
+<br>
+
+⬇️
+
+**Text Detection Module**
+
+</td>
+
+<td align="center" width="50%">
+
+### 🖼️ Images
+
+<br>
+
+⬇️
+
+**Image Detection Module**
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<a href="https://github.com/Anubrata-Mallick/PDF_PROCESSOR">
+  <img src="https://img.shields.io/badge/🔗%20PDF%20Processor-Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<br><br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500">
+
+</div>
 
 
-<!-- 🌐 PDF BIFUECATION --> 
-## 🖼️ PDF Bifurcation
+<!-- ⚡ AI Score Fusion -->
 
-The PDF processor separates the document into:
+<div align="center">
 
-**Text → Text Detection Module**
-
-**Images → Image Detection Module**
-
-### 🔗 PDF Processor
-
-[PDF Processor Repository](https://github.com/Anubrata-Mallick/PDF_PROCESSOR)
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
-
-
-<!-- 🌐 Score --> 
 ## ⚡ AI Score Fusion
 
-<img src="./assets/FusionFormula1.png" alt="Fusion Formula" width="800">
+<p>
+  <i>
+    Combining text and image predictions through an adaptive
+    <br>
+    late-fusion strategy to generate the final document-level AI score.
+  </i>
+</p>
 
-<img src="./assets/FusionFormula2.png" alt="Fusion Formula" width="800">
+<br>
 
-The text and image predictions are combined using an **adaptive late-fusion strategy** to produce the final document-level AI score.
+<img src="./assets/FusionFormula1.png" alt="Fusion Formula 1" width="800">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+<br><br>
+
+<img src="./assets/FusionFormula2.png" alt="Fusion Formula 2" width="800">
+
+<br><br>
+
+<table align="center">
+<tr>
+<td align="center">
+
+📝 <b>Text Prediction</b>
+
+</td>
+<td align="center">
+
++
+
+</td>
+<td align="center">
+
+🖼️ <b>Image Prediction</b>
+
+</td>
+<td align="center">
+
+➜
+
+</td>
+<td align="center">
+
+⚡ <b>Adaptive Fusion</b>
+
+</td>
+<td align="center">
+
+➜
+
+</td>
+<td align="center">
+
+🎯 <b>Final AI Score</b>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600">
+
+</div>
 
 
-<!-- 🌐 Test Result --> 
+<!-- 🧪 Test Results -->
+
+<div align="center">
+
 ## 🧪 Test Results
+
+<p>
+  <i>
+    Evaluating the robustness of the fused model across challenging
+    <br>
+    document types, adversarial cases, and real-world scenarios.
+  </i>
+</p>
+
+<br>
 
 <img src="./assets/Test.png" alt="Test Results" width="850">
 
-The system was evaluated on adversarial cases, mixed text-image documents, and real academic project reports.
+<br><br>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50">
+<table align="center">
+<tr>
+<td align="center">🧪<br><b>Adversarial Cases</b></td>
+<td align="center">📄<br><b>Mixed Text-Image</b></td>
+<td align="center">🎓<br><b>Academic Reports</b></td>
+<td align="center">⚠️<br><b>Edge Cases</b></td>
+</tr>
+</table>
+
+<br>
+
+<p>
+The system was evaluated on <b>adversarial cases</b>, 
+<b>mixed text-image documents</b>, and 
+<b>real academic project reports</b> to assess the robustness of the overall fused model.
+</p>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600">
+
+</div>
 
 <!-- 🌐 My contri --> 
 <div align="center">
 
-# <img src="https://user-images.githubusercontent.com/74038190/216658117-5a5c9ab7-7319-4ffa-9e64-79d6bf0fb8d1.gif"> My Contribution
+# <img src="https://user-images.githubusercontent.com/74038190/216658117-5a5c9ab7-7319-4ffa-9e64-79d6bf0fb8d1.gif" width="60"> My Contribution <img src="https://user-images.githubusercontent.com/74038190/216658117-5a5c9ab7-7319-4ffa-9e64-79d6bf0fb8d1.gif" width="60">
 
 ### 🚀 Engineering the Pipeline from Architecture to Validation
 
