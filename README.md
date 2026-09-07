@@ -1,6 +1,9 @@
 <div align="center">
 
-<h1>🧠 A Decision Support System for AI Content Detection</h1>
+<font size="6"><b>🧠 A Decision Support System for AI Content Detection</b></font>
+
+<br><br>
+
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="850">
 
 </div>
