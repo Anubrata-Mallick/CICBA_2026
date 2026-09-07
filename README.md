@@ -6,6 +6,7 @@
 
 </div>
 
+<!-- 🌐 RESEARCH PAPER --> 
 ## <img src="https://user-images.githubusercontent.com/74038190/216656949-4d98aa51-a60a-4dd1-b531-1b5745e18002.gif" width="50"> Research Paper
 
 ### **Publishing Soon at CICBA-2026**
@@ -16,15 +17,20 @@
 
 > The paper link will be added here once officially published.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
-## 🎥 Demo
+
+<!-- Demo -->
+## <img src="https://user-images.githubusercontent.com/74038190/216654095-6f6772e4-e433-4bba-9164-1ca6f463ac3f.gif" width="50"> Demo
 
 <p align="center">
   <img src="./assets/demo.gif" alt="Demo" width="800">
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+
+
+<!-- 🌐 Overall Arch --> 
 
 ## 🏗️ Overall Architecture
 
@@ -32,8 +38,10 @@
 
 The system processes a PDF through separate **text and image analysis pipelines**, followed by an adaptive late-fusion layer to generate an overall AI probability score.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
+
+<!-- 🌐 Text Analysis --> 
 ## 📝 Text Analysis
 
 <img src="./assets/Textarch.png" alt="Text Analysis Architecture" width="850">
@@ -49,8 +57,10 @@ The text module combines:
 
 **99.10% Accuracy | 99.97% AUROC**
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
+
+<!-- 🌐 PDF BIFUECATION --> 
 ## 🖼️ PDF Bifurcation
 
 The PDF processor separates the document into:
@@ -63,8 +73,10 @@ The PDF processor separates the document into:
 
 [PDF Processor Repository](https://github.com/Anubrata-Mallick/PDF_PROCESSOR)
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
+
+<!-- 🌐 Score --> 
 ## ⚡ AI Score Fusion
 
 <img src="./assets/FusionFormula1.png" alt="Fusion Formula" width="800">
@@ -73,20 +85,22 @@ The PDF processor separates the document into:
 
 The text and image predictions are combined using an **adaptive late-fusion strategy** to produce the final document-level AI score.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
+
+<!-- 🌐 Test Result --> 
 ## 🧪 Test Results
 
 <img src="./assets/Test.png" alt="Test Results" width="850">
 
 The system was evaluated on adversarial cases, mixed text-image documents, and real academic project reports.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50">
+
+<!-- 🌐 My contri --> 
 <div align="center">
 
-# 🧑‍💻 My Contribution
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJ0bG1qZ3Q4dGJ6cHh6d2V0bGJ4d2Z0bWZ4b2R5dGZ4dGZ4Z3M5eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="80">
+# <img src="https://user-images.githubusercontent.com/74038190/216658117-5a5c9ab7-7319-4ffa-9e64-79d6bf0fb8d1.gif"> My Contribution
 
 ### 🚀 Engineering the Pipeline from Architecture to Validation
 
@@ -133,11 +147,11 @@ The system was evaluated on adversarial cases, mixed text-image documents, and r
 > Designed and conducted **comprehensive testing** of the fused model, systematically evaluating performance across different scenarios, edge cases, and failure conditions.
 
 
----
-
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="950">
+<!-- 🌐 Shout out --> 
 <div align="center">
 
-### 📚 Shoutouts
+# <img src="https://user-images.githubusercontent.com/74038190/214644145-264f4759-7633-441e-9d67-d8dda9d50d26.gif" width="80"> Shoutouts <img src="https://user-images.githubusercontent.com/74038190/214644145-264f4759-7633-441e-9d67-d8dda9d50d26.gif" width="80">
 🤝 The People Behind the Journey
 
 <p> <em> People I had the pleasure of working with throughout the entire journey — <br> from the initial idea 💡 to the final publication 🚀 </em> </p>
