@@ -1,5 +1,10 @@
-# 🧠 A Decision Support System for AI Content Detection
----
+<div align="center">
+
+<h1>🧠 A Decision Support System for AI Content Detection</h1>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="850">
+
+</div>
 
 ## 📢 Research Paper
 
@@ -77,27 +82,69 @@ The text and image predictions are combined using an **adaptive late-fusion stra
 The system was evaluated on adversarial cases, mixed text-image documents, and real academic project reports.
 
 ---
+<div align="center">
 
-# My Contribution 👨‍💻
+# 🧑‍💻 My Contribution
 
-- Designed the overall architecture for efficient AI-based tracking in an optimized space.
-- Developed the PDF bifurcation pipeline to separate text and images from PDF documents.
-- Designed an ensemble architecture integrated with a neural network decision head for text detection.
-- Developed the fusion formula to generate the overall AI score prediction along with the probability.
-- Designed and conducted comprehensive testing of the overall fused model, covering various edge cases.
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJ0bG1qZ3Q4dGJ6cHh6d2V0bGJ4d2Z0bWZ4b2R5dGZ4dGZ4Z3M5eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="80">
+
+### 🚀 Engineering the Pipeline from Architecture to Validation
+
+<p>
+  <em>
+    My work focused on designing, developing, integrating, and validating
+    <br>
+    the core AI pipeline behind the project.
+  </em>
+</p>
+
+</div>
+
+<br>
 
 ---
 
-## 📚 Publication
+### 🏗️ 01 · System Architecture
 
-**A Decision Support System for AI Content Detection Using Neural Networks and Ensemble Architecture**
+> Designed the **overall architecture** for efficient AI-based tracking while optimizing the system for operation within a constrained space.
 
-**CICBA-2026**
+---
 
-📄 **Paper:** `Coming Soon`
+### 📄 02 · PDF Bifurcation Pipeline
 
-🌐 [CICBA Official Website](https://www.cicba.in/)
+> Developed the **PDF bifurcation pipeline** to intelligently separate **text and images** from PDF documents, creating structured inputs for downstream AI processing.
 
+---
+
+### 🧠 03 · Ensemble AI Architecture
+
+> Designed an **ensemble architecture** integrated with a **neural-network decision head** for robust text detection and intelligent model-level decision making.
+
+---
+
+### 🎯 04 · AI Score Fusion
+
+> Developed the **fusion formula** responsible for generating the overall **AI score prediction**, together with its corresponding probability.
+
+---
+
+### 🧪 05 · Testing & Edge Cases
+
+> Designed and conducted **comprehensive testing** of the fused model, systematically evaluating performance across different scenarios, edge cases, and failure conditions.
+
+
+---
+
+<div align="center">
+
+### 📚 Shoutouts
+🤝 The People Behind the Journey
+
+<p> <em> People I had the pleasure of working with throughout the entire journey — <br> from the initial idea 💡 to the final publication 🚀 </em> </p>
+
+<br>
+
+<table align="center"> <tr> <td align="center" width="50%"> <h3>🌟 Shreya Dhar</h3> <p> <strong>Team Member</strong> </p> <a href="https://www.linkedin.com/in/shreya-dhar-4b3b66292/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> </td> <td align="center" width="50%"> <h3>🌟 Kartick Kumar Shaw</h3> <p> <strong>Team Member</strong> </p> <a href="https://www.linkedin.com/in/kartick-kumar-shaw-229861299/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> </td> </tr> <tr> <td align="center" width="50%"> <h3>🌟 Karma Tashi Gyatsho Bhutiya</h3> <p> <strong>Team Member</strong> </p> <a href="https://www.linkedin.com/in/karma-tashi-gyatsho10/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> </td> <td align="center" width="50%"> <h3>🧭 Indrajit Bhattacharya</h3> <p> <strong>Mentor</strong> </p> <a href="https://www.linkedin.com/in/indrajit-bhattacharya-53132a14/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> </td> </tr> </table>
 ---
 
 <p align="center">
