@@ -1,13 +1,4 @@
 # 🧠 A Decision Support System for AI Content Detection
-
-### Using Neural Networks & Ensemble Architecture
-
-<p align="center">
-
-8th International Conference on Computational Intelligence in Communications and Business Analytics ([CICBA-2026](https://www.cicba.in/))
-
-</p>
-
 ---
 
 ## 📢 Research Paper
